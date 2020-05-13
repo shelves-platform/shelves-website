@@ -20,6 +20,5 @@
         npm run-script build
       displayName: 'npm install and build'
 
-    - task: PublishBuildArtifacts@1
-      pathtoPublish: dist
-      artifactName: distribution
+    - publish: dist
+      artifact: distribution
