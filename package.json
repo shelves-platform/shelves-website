@@ -2,8 +2,10 @@
     "title": "Landing Page",
     "name": "startbootstrap-landing-page",
     "version": "5.0.6",
+    "browserslist": ["last 2 versions"],
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "start": "node_modules/.bin/gulp watch",
+        "build": "gulp"
     },
     "description": "An HTML landing page template built with Bootstrap",
     "keywords": [
